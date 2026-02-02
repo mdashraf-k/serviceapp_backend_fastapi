@@ -36,7 +36,6 @@ class ServiceRequest(BaseModel):
                 "phone_number": "0123456789",
                 "address": " 58, Pratap Nagar, Delhi, Pincode: 110091",
                 "product": "air conditioner",
-                "isPaid": "True/False (Optional)"
             }
         }
         
