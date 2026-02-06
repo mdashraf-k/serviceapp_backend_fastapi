@@ -1,5 +1,5 @@
 from databases import Base
-from sqlalchemy import Column, Integer, ForeignKey,String, Boolean
+from sqlalchemy import Column, Integer,String,UniqueConstraint
 
 class Services(Base):
     __tablename__ = "services"
